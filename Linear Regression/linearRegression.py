@@ -49,7 +49,7 @@ def gradient_descent(X, y, theta):
         J = costFunction(X, y, theta)
         cost.append(J)
     return theta, cost
-
+print(cost)
 
 weights = gradient_descent(X, y, theta)[0]
 
